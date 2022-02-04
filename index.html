@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" 
+rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+<title> Tip calculator app</title> 
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header> 
+    <div class="brand-identity">
+      SPLI<br /> TTER
+    </div>
+  </header>
+  <div class="container">
+  <div class="container-element">
+    <div class="bill-container">
+     <div class="bill-form-container">
+        <div class="bill-error-container-1">
+         <h3 class="h3 bill-title">Bill</h3>
+         <h3 class = "h3 error-input-1">Can't be zero / < 0.1 </h3>
+        </div>
+        <label class="bill-label label" for="">
+          <input type="number" name="bill" id="bills" class="input bill" value="0">
+        </label>
+      </div>
+     <div class="tip-selector-container">
+        <h3 class="h3 tip-selector-title">Select Tip %</h3>
+        <div class="tip-percent-calc">
+          <button class="btn-tips five-percent-calc">5%</button>
+          <button class="btn-tips ten-percent-calc">10%</button>
+          <button class="btn-tips fifteen-percent-calc">15%</button>
+          <button class="btn-tips twentyfive-percent-calc">25%</button>
+          <button class="btn-tips fifty-percent-calc">50%</button>
+          <input type="number" class="input custom-input" name="custom-inputs" placeholder="Custom" id="">
+          <!-- <button class="btn-tips custom-percent-calc">Custom</button> -->
+        </div>
+      </div>
+      <div class="number-people-container">
+        <div class="bill-error-container-2">
+         <h3 class="h3 number-title">Number of People</h3>
+         <h3 class = "h3 error-input-2">Can't be zero / < 0.1 </h3>
+        </div>
+        <label class="number-people-label label" for="">
+        <input type="number" name="number-of-people" id="" class="input number-people" width="82.5px" value="0"> 
+        </label>
+      </div>
+    </div>
+    <div class="tip-container">
+      <div class="container-element-2">
+      <h3 class="h3 h3-tip-amount" id="h3-tip-container">Tip Amount
+        
+      </h3>
+      <p class="tip-amount">$0.00</p>
+      <h3 class="h3 h3-total-amount" id="h3-tip-container">Total Amount
+      </h3>
+      <p class="total-amount">$0.00</p>
+      <button class="reset">RESET</button>      
+    </div>
+    </div>
+  </div>
+  </div>
+ 
+  
+  <!-- <div class="attribution"> 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>. 
+  </div> -->
+  <script src="script.js">
+
+  </script>
+</body>
+</html>
