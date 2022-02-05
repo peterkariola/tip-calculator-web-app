@@ -18,11 +18,12 @@
          --light-grayish-cyan: hsl(185, 41%, 84%);
          --light-grayish-cyan: hsl(189, 41%, 97%);
          --white: hsl(0, 0%, 100%);
+         --background-color: #c5e4e7;
           
         }
   
         body{
-          background-color: var(--body-cyan);
+          background-color: var(--background-color);
           
         }
   
